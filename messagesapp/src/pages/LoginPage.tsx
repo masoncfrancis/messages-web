@@ -7,15 +7,15 @@ function LoginPage() {
         <div className="col-lg-4 col-md-6 col-sm-8">
           <div className="card mt-5">
             <div className="card-body">
-              <h3 className="card-title text-center mb-4">Login</h3>
+              <h3 className="card-title text-center mb-4">Login to MsgBox</h3>
               <form>
-                <div className="mb-3">
+                <div className="mb-3 text-start">
                   <label htmlFor="email" className="form-label">
                     Email address
                   </label>
                   <input type="email" className="form-control" id="email" />
                 </div>
-                <div className="mb-3">
+                <div className="mb-3 text-start">
                   <label htmlFor="password" className="form-label">
                     Password
                   </label>
