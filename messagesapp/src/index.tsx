@@ -15,7 +15,7 @@ root.render(
     domain="dev-6pjar5mkaibb201j.us.auth0.com"
     clientId="HvHaCNUT3M4SzLixomBvhqDtxiyN4T8J"
     authorizationParams={{
-      redirect_uri: window.location.origin
+      redirect_uri: "https://3bd6-206-174-165-139.ngrok-free.app/authtest"
     }}
     >
     <BrowserRouter>

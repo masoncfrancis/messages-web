@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import MessagePage from './pages/MessagePage';
 import AuthenticatedTest from './pages/AuthenticatedTest';
+import LoginButton from './components/LoginButton';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 	      <Route path='/authtest' element={<AuthenticatedTest/>}/>
       </Routes>
       <h3> Yee </h3>
+      <LoginButton/>
     </div>
   );
 }
