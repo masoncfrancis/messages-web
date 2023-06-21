@@ -5,6 +5,8 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
 import LoginPage from './pages/LoginPage';
+import MessagePage from './pages/MessagePage';
+import AuthenticatedTest from './pages/AuthenticatedTest';
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/login' element={<LoginPage/>}/>
+        <Route path='/message' element={<MessagePage/>}/>
+	      <Route path='/authtest' element={<AuthenticatedTest/>}/>
       </Routes>
     </div>
   );
